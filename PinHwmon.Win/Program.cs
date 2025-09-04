@@ -29,7 +29,7 @@ class Program
             else if (a.StartsWith("--gpu-max=")) double.TryParse(a[10..], out gpuMax);
         }
 
-        using var comp = new Computer()
+        var comp = new Computer()
         {
             IsCpuEnabled = true,
             IsGpuEnabled = true,
@@ -94,8 +94,10 @@ class Program
             catch { /* ignore hardware read errors */ }
         }
 
-        switch (cmd)
+        try
         {
+            switch (cmd)
+            {
             case "json":
                 var json = JsonSerializer.Serialize(new
                 {
@@ -128,6 +130,12 @@ class Program
             default:
                 Console.WriteLine("Usage: pin-hwmon-win [read|json|check --cpu-max=N --gpu-max=N|metrics]");
                 return 2;
+            }
+        }
+        finally
+        {
+            try { comp.Close(); } catch { }
         }
     }
+}
 }
