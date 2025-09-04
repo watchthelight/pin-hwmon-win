@@ -1,0 +1,5 @@
+C:\Users\Bash\AppData\Local\Temp\pin-hwmon-win-20250904-161408\PinHwmon.Win\obj\Release\net8.0\PinHwmon.Win.csproj.AssemblyReference.cache
+C:\Users\Bash\AppData\Local\Temp\pin-hwmon-win-20250904-161408\PinHwmon.Win\obj\Release\net8.0\PinHwmon.Win.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bash\AppData\Local\Temp\pin-hwmon-win-20250904-161408\PinHwmon.Win\obj\Release\net8.0\PinHwmon.Win.AssemblyInfoInputs.cache
+C:\Users\Bash\AppData\Local\Temp\pin-hwmon-win-20250904-161408\PinHwmon.Win\obj\Release\net8.0\PinHwmon.Win.AssemblyInfo.cs
+C:\Users\Bash\AppData\Local\Temp\pin-hwmon-win-20250904-161408\PinHwmon.Win\obj\Release\net8.0\PinHwmon.Win.csproj.CoreCompileInputs.cache
